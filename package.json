@@ -1,0 +1,19 @@
+{
+  "name": "blogger-sync",
+  "version": "1.0.0",
+  "description": "Sync my blog data from blogspot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dave3068/blogger-sync.git"
+  },
+  "author": "h_Davy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dave3068/blogger-sync/issues"
+  },
+  "homepage": "https://github.com/dave3068/blogger-sync#readme"
+}
