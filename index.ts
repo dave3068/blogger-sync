@@ -34,3 +34,18 @@ https://developers.google.com/blogger/docs/3.0/reference/comments#resource
 */
 
 console.log("hi");
+
+let API_KEY:string = 'YOUR-API-KEY';
+
+import * as gapis from "./gapis";
+
+gapis.setApiKey(API_KEY);
+
+gapis.blogs.getByUrl('http://blog.davyhawk.net/').then((ret)=>{
+    console.log(ret);
+    console.log(ret.posts.totalItems);
+    console.log(ret.posts.selfLink);
+}).catch((err)=>{
+    console.error(err);
+});
+

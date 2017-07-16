@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@types/node": "^8.0.13",
+    "es6-promise": "^4.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dave3068/blogger-sync.git"
