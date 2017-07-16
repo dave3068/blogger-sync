@@ -1,0 +1,288 @@
+[
+    // https://www.googleapis.com/blogger/v3/users/self
+    {
+        "kind": "blogger#user",
+        "id": "g116578564621837026132",
+        "url": "https://www.blogger.com/profile/10114930662552451055",
+        "selfLink": "https://www.googleapis.com/blogger/v3/users/g116578564621837026132",
+        "blogs": {
+            "selfLink": "https://www.googleapis.com/blogger/v3/users/g116578564621837026132/blogs"
+        },
+        "displayName": "Davy Hawk",
+        "about": "",
+        "locale": {
+            "language": "en",
+            "country": "",
+            "variant": ""
+        }
+    },
+    // https://www.googleapis.com/blogger/v3/users/self/blogs
+    {
+        "kind": "blogger#blogList",
+        "items": [
+            {
+                "kind": "blogger#blog",
+                "id": "2610374684750965741",
+                "name": "h_Davy's blog",
+                "description": "",
+                "published": "2006-12-21T16:16:23+08:00",
+                "updated": "2017-07-14T04:40:54+08:00",
+                "url": "http://blog.davyhawk.net/",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741",
+                "posts": {
+                    "totalItems": 154,
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts"
+                },
+                "pages": {
+                    "totalItems": 0,
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/pages"
+                },
+                "locale": {
+                    "language": "en",
+                    "country": "",
+                    "variant": ""
+                },
+                "status": "LIVE"
+            },
+            {
+                "kind": "blogger#blog",
+                "id": "25503732",
+                "name": "h_Davy",
+                "description": "h_Davy 的 Bolg",
+                "published": "2007-04-10T08:11:06+08:00",
+                "updated": "2017-07-14T04:43:38+08:00",
+                "url": "http://dave3068.bloggerspaces.com/",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/25503732",
+                "posts": {
+                    "totalItems": 12,
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/25503732/posts"
+                },
+                "pages": {
+                    "totalItems": 0,
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/25503732/pages"
+                },
+                "locale": {
+                    "language": "zh",
+                    "country": "CN",
+                    "variant": ""
+                },
+                "status": "LIVE"
+            }
+        ]
+    },
+    // https://www.googleapis.com/blogger/v3/blogs/2610374684750965741
+    {
+        "kind": "blogger#blog",
+        "id": "2610374684750965741",
+        "name": "h_Davy's blog",
+        "description": "",
+        "published": "2006-12-21T16:16:23+08:00",
+        "updated": "2017-07-14T04:40:54+08:00",
+        "url": "http://blog.davyhawk.net/",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741",
+        "posts": {
+            "totalItems": 152,
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts",
+            "items": [
+                {
+                    "kind": "blogger#post",
+                    "id": "3323658563337664726",
+                    "blog": {
+                        "id": "2610374684750965741"
+                    },
+                    "published": "2012-11-29T11:50:00+08:00",
+                    "updated": "2012-11-29T11:50:06+08:00",
+                    "etag": "\"h3phi6z0oROkI1XWpXsALUFHLuA/dGltZXN0YW1wOiAxMzU0MTYxMDA2NTA1Cm9mZnNldDogMjg4MDAwMDAK\"",
+                    "url": "http://blog.davyhawk.net/2012/11/netty-udp-receivebuffersize.html",
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726",
+                    "title": "蛋痛的 netty UDP receiveBufferSize",
+                    "author": {
+                        "id": "g116578564621837026132",
+                        "displayName": "Davy Hawk",
+                        "url": "https://www.blogger.com/profile/10114930662552451055",
+                        "image": {
+                            "url": "//lh4.googleusercontent.com/-puZjh_ZO0x4/AAAAAAAAAAI/AAAAAAAAAAA/3tarBAU62rw/s35-c/photo.jpg"
+                        }
+                    },
+                    "replies": {
+                        "totalItems": "0",
+                        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726/comments"
+                    },
+                    "labels": [
+                        "Java"
+                    ]
+                },
+                {
+                    "kind": "blogger#post",
+                    "id": "3066173059903063769",
+                    "blog": {
+                        "id": "2610374684750965741"
+                    },
+                    "published": "2012-10-17T15:31:00+08:00",
+                    "updated": "2012-10-17T15:31:56+08:00",
+                    "etag": "\"h3phi6z0oROkI1XWpXsALUFHLuA/dGltZXN0YW1wOiAxMzUwNDU5MTE2MDE0Cm9mZnNldDogMjg4MDAwMDAK\"",
+                    "url": "http://blog.davyhawk.net/2012/10/wireshark-smgp-protocol-decoder-lua.html",
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3066173059903063769",
+                    "title": "Wireshark SMGP protocol decoder (lua)",
+                    "author": {
+                        "id": "g116578564621837026132",
+                        "displayName": "Davy Hawk",
+                        "url": "https://www.blogger.com/profile/10114930662552451055",
+                        "image": {
+                            "url": "//lh4.googleusercontent.com/-puZjh_ZO0x4/AAAAAAAAAAI/AAAAAAAAAAA/3tarBAU62rw/s35-c/photo.jpg"
+                        }
+                    },
+                    "replies": {
+                        "totalItems": "0",
+                        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3066173059903063769/comments"
+                    },
+                    "labels": [
+                        "lua",
+                        "Program",
+                        "protocol"
+                    ]
+                },
+                {
+                    // ...
+                }
+            ]
+        },
+        "pages": {
+            "totalItems": 0,
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/pages"
+        },
+        "locale": {
+            "language": "en",
+            "country": "",
+            "variant": ""
+        }
+    },
+    // https://www.googleapis.com/blogger/v3/blogs/byurl?url=...
+    {
+        "kind": "blogger#blog",
+        "id": "2610374684750965741",
+        "name": "h_Davy's blog",
+        "description": "",
+        "published": "2006-12-21T16:16:23+08:00",
+        "updated": "2017-07-14T04:40:54+08:00",
+        "url": "http://blog.davyhawk.net/",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741",
+        "posts": {
+            "totalItems": 152,
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts"
+        },
+        "pages": {
+            "totalItems": 0,
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/pages"
+        },
+        "locale": {
+            "language": "en",
+            "country": "",
+            "variant": ""
+        }
+    },
+    // https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts
+    {
+        "kind": "blogger#postList",
+        "nextPageToken": "CgkIARjAnKTStCcQ7deDuqC--pwk",
+        "items": [
+            {
+                "kind": "blogger#post",
+                "id": "3323658563337664726",
+                "blog": {
+                    "id": "2610374684750965741"
+                },
+                "published": "2012-11-29T11:50:00+08:00",
+                "updated": "2012-11-29T11:50:06+08:00",
+                "etag": "\"h3phi6z0oROkI1XWpXsALUFHLuA/dGltZXN0YW1wOiAxMzU0MTYxMDA2NTA1Cm9mZnNldDogMjg4MDAwMDAK\"",
+                "url": "http://blog.davyhawk.net/2012/11/netty-udp-receivebuffersize.html",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726",
+                "title": "蛋痛的 netty UDP receiveBufferSize",
+                "content": "netty 的 \u003ccode\u003eNioDatagramWorker\u003c/code\u003e 中分配了接收包缓存的最大大小，默认是 768Bytes，蛋痛的是第一次接收 768B后第二次缓存被扩展到 768B*2 buffer 中前768B是第一个包的前面部分数据，后768B是第二个包的前部分数据。\u003cbr /\u003e\n比较奇怪的是：\u003cbr /\u003e\n\u003ca href=\"http://docs.jboss.org/netty/3.2/api/org/jboss/netty/channel/socket/DatagramChannelConfig.html\"\u003ehttp://docs.jboss.org/netty/3.2/api/org/jboss/netty/channel/socket/DatagramChannelConfig.html\u003cbr /\u003e\n\u003c/a\u003e里面说了个 \u003ccode\u003ereceiveBufferSize\u003c/code\u003e，但是设置后无效，经过多次尝试后发现必须要设置 \u003ccode\u003ereceiveBufferSizePredictor\u003c/code\u003e&nbsp;或者 \u003ccode\u003ereceiveBufferSizePredictorFactory\u003c/code\u003e&nbsp;才能够改变这个接收包缓存的大小。\u003cbr /\u003e\n如：\u003cbr /\u003e\n\u003cpre\u003ebootstrap.setOption(\"receiveBufferSize\", 1048576);\nbootstrap.setOption(\"receiveBufferSizePredictor\", new FixedReceiveBufferSizePredictor(1048576));\n// bootstrap.setOption(\"receiveBufferSizePredictorFactory\", new FixedReceiveBufferSizePredictorFactory(1048576));\n\u003c/pre\u003e\n\u003cbr /\u003e\n吐槽 netty 另外一个蛋痛的地方。在接收到包回写返回包时没有强制发送的方法，必须要等整个 \u003ccode\u003emessageReceived\u003c/code\u003e 方法返回以后才会把包写出去。如：\u003cbr /\u003e\n\u003cpre\u003epublic void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception {\n  ...\n  e.getChannel().write(responsePacket); // not send out now\n  Thread.sleep(30000L);\n  ...\n}\u003c/pre\u003e\n上面这块代码中 \u003ccode\u003eresponsePacket\u003c/code\u003e 不是在回写的时候马上发出去的，而是要等 30秒方法结束后才发出去。\u003cbr /\u003e\n当然咯，这样也强制你在接收到包以后以新的线程来处理数据，但是至少在文档里也说清楚嘛。\u003cbr /\u003e\n\u003cbr /\u003e\n//EOF",
+                "author": {
+                    "id": "g116578564621837026132",
+                    "displayName": "Davy Hawk",
+                    "url": "https://www.blogger.com/profile/10114930662552451055",
+                    "image": {
+                        "url": "//lh4.googleusercontent.com/-puZjh_ZO0x4/AAAAAAAAAAI/AAAAAAAAAAA/3tarBAU62rw/s35-c/photo.jpg"
+                    }
+                },
+                "replies": {
+                    "totalItems": "0",
+                    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726/comments"
+                },
+                "labels": [
+                    "Java"
+                ]
+            },
+            {
+                // ...
+            }
+        ],
+        "etag": "\"h3phi6z0oROkI1XWpXsALUFHLuA/MjAxNC0wNi0xNVQwNjowNDo0Ni41MTda\""
+    },
+    // https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726
+    {
+        "kind": "blogger#post",
+        "id": "3323658563337664726",
+        "blog": {
+            "id": "2610374684750965741"
+        },
+        "published": "2012-11-29T11:50:00+08:00",
+        "updated": "2012-11-29T11:50:06+08:00",
+        "etag": "\"h3phi6z0oROkI1XWpXsALUFHLuA/dGltZXN0YW1wOiAxMzU0MTYxMDA2NTA1Cm9mZnNldDogMjg4MDAwMDAK\"",
+        "url": "http://blog.davyhawk.net/2012/11/netty-udp-receivebuffersize.html",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726",
+        "title": "蛋痛的 netty UDP receiveBufferSize",
+        "content": "netty 的 \u003ccode\u003eNioDatagramWorker\u003c/code\u003e 中分配了接收包缓存的最大大小，默认是 768Bytes，蛋痛的是第一次接收 768B后第二次缓存被扩展到 768B*2 buffer 中前768B是第一个包的前面部分数据，后768B是第二个包的前部分数据。\u003cbr /\u003e\n比较奇怪的是：\u003cbr /\u003e\n\u003ca href=\"http://docs.jboss.org/netty/3.2/api/org/jboss/netty/channel/socket/DatagramChannelConfig.html\"\u003ehttp://docs.jboss.org/netty/3.2/api/org/jboss/netty/channel/socket/DatagramChannelConfig.html\u003cbr /\u003e\n\u003c/a\u003e里面说了个 \u003ccode\u003ereceiveBufferSize\u003c/code\u003e，但是设置后无效，经过多次尝试后发现必须要设置 \u003ccode\u003ereceiveBufferSizePredictor\u003c/code\u003e&nbsp;或者 \u003ccode\u003ereceiveBufferSizePredictorFactory\u003c/code\u003e&nbsp;才能够改变这个接收包缓存的大小。\u003cbr /\u003e\n如：\u003cbr /\u003e\n\u003cpre\u003ebootstrap.setOption(\"receiveBufferSize\", 1048576);\nbootstrap.setOption(\"receiveBufferSizePredictor\", new FixedReceiveBufferSizePredictor(1048576));\n// bootstrap.setOption(\"receiveBufferSizePredictorFactory\", new FixedReceiveBufferSizePredictorFactory(1048576));\n\u003c/pre\u003e\n\u003cbr /\u003e\n吐槽 netty 另外一个蛋痛的地方。在接收到包回写返回包时没有强制发送的方法，必须要等整个 \u003ccode\u003emessageReceived\u003c/code\u003e 方法返回以后才会把包写出去。如：\u003cbr /\u003e\n\u003cpre\u003epublic void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception {\n  ...\n  e.getChannel().write(responsePacket); // not send out now\n  Thread.sleep(30000L);\n  ...\n}\u003c/pre\u003e\n上面这块代码中 \u003ccode\u003eresponsePacket\u003c/code\u003e 不是在回写的时候马上发出去的，而是要等 30秒方法结束后才发出去。\u003cbr /\u003e\n当然咯，这样也强制你在接收到包以后以新的线程来处理数据，但是至少在文档里也说清楚嘛。\u003cbr /\u003e\n\u003cbr /\u003e\n//EOF",
+        "author": {
+            "id": "g116578564621837026132",
+            "displayName": "Davy Hawk",
+            "url": "https://www.blogger.com/profile/10114930662552451055",
+            "image": {
+                "url": "//lh4.googleusercontent.com/-puZjh_ZO0x4/AAAAAAAAAAI/AAAAAAAAAAA/3tarBAU62rw/s35-c/photo.jpg"
+            }
+        },
+        "replies": {
+            "totalItems": "0",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726/comments"
+        },
+        "labels": [
+            "Java"
+        ]
+    },
+    // insert: POST https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts
+    // delete: DELETE https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/{postId}
+    // update: PUT https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/{postId}
+    // publish: POST https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/{postId}/publish
+    // https://www.googleapis.com/blogger/v3/blogs/blogId/posts/bypath?path=/2012/11/netty-udp-receivebuffersize.html
+    {
+        "kind": "blogger#post",
+        "id": "3323658563337664726",
+        "blog": {
+            "id": "2610374684750965741"
+        },
+        "published": "2012-11-29T11:50:00+08:00",
+        "updated": "2012-11-29T11:50:06+08:00",
+        "etag": "\"h3phi6z0oROkI1XWpXsALUFHLuA/dGltZXN0YW1wOiAxMzU0MTYxMDA2NTA1Cm9mZnNldDogMjg4MDAwMDAK\"",
+        "url": "http://blog.davyhawk.net/2012/11/netty-udp-receivebuffersize.html",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726",
+        "title": "蛋痛的 netty UDP receiveBufferSize",
+        "content": "netty 的 \u003ccode\u003eNioDatagramWorker\u003c/code\u003e 中分配了接收包缓存的最大大小，默认是 768Bytes，蛋痛的是第一次接收 768B后第二次缓存被扩展到 768B*2 buffer 中前768B是第一个包的前面部分数据，后768B是第二个包的前部分数据。\u003cbr /\u003e\n比较奇怪的是：\u003cbr /\u003e\n\u003ca href=\"http://docs.jboss.org/netty/3.2/api/org/jboss/netty/channel/socket/DatagramChannelConfig.html\"\u003ehttp://docs.jboss.org/netty/3.2/api/org/jboss/netty/channel/socket/DatagramChannelConfig.html\u003cbr /\u003e\n\u003c/a\u003e里面说了个 \u003ccode\u003ereceiveBufferSize\u003c/code\u003e，但是设置后无效，经过多次尝试后发现必须要设置 \u003ccode\u003ereceiveBufferSizePredictor\u003c/code\u003e&nbsp;或者 \u003ccode\u003ereceiveBufferSizePredictorFactory\u003c/code\u003e&nbsp;才能够改变这个接收包缓存的大小。\u003cbr /\u003e\n如：\u003cbr /\u003e\n\u003cpre\u003ebootstrap.setOption(\"receiveBufferSize\", 1048576);\nbootstrap.setOption(\"receiveBufferSizePredictor\", new FixedReceiveBufferSizePredictor(1048576));\n// bootstrap.setOption(\"receiveBufferSizePredictorFactory\", new FixedReceiveBufferSizePredictorFactory(1048576));\n\u003c/pre\u003e\n\u003cbr /\u003e\n吐槽 netty 另外一个蛋痛的地方。在接收到包回写返回包时没有强制发送的方法，必须要等整个 \u003ccode\u003emessageReceived\u003c/code\u003e 方法返回以后才会把包写出去。如：\u003cbr /\u003e\n\u003cpre\u003epublic void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception {\n  ...\n  e.getChannel().write(responsePacket); // not send out now\n  Thread.sleep(30000L);\n  ...\n}\u003c/pre\u003e\n上面这块代码中 \u003ccode\u003eresponsePacket\u003c/code\u003e 不是在回写的时候马上发出去的，而是要等 30秒方法结束后才发出去。\u003cbr /\u003e\n当然咯，这样也强制你在接收到包以后以新的线程来处理数据，但是至少在文档里也说清楚嘛。\u003cbr /\u003e\n\u003cbr /\u003e\n//EOF",
+        "author": {
+            "id": "g116578564621837026132",
+            "displayName": "Davy Hawk",
+            "url": "https://www.blogger.com/profile/10114930662552451055",
+            "image": {
+                "url": "//lh4.googleusercontent.com/-puZjh_ZO0x4/AAAAAAAAAAI/AAAAAAAAAAA/3tarBAU62rw/s35-c/photo.jpg"
+            }
+        },
+        "replies": {
+            "totalItems": "0",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2610374684750965741/posts/3323658563337664726/comments"
+        },
+        "labels": [
+            "Java"
+        ]
+    }
+]
