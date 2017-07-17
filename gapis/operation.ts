@@ -31,6 +31,7 @@ export function request<R>(path:string, param?:any, method?:RequestMethod):Promi
             'path': path
         }, (res)=>{
             //console.log(res.statusCode);
+            // TODO : 分多块接收的处理
             res.on('data', (data:Buffer)=>{
                 try {
                     let ret = JSON.parse(data.toString());
@@ -40,6 +41,7 @@ export function request<R>(path:string, param?:any, method?:RequestMethod):Promi
                         resolve(ret);
                     }
                 } catch (error) {
+                    //console.error("data format error : " + data.toString());
                     reject(error);
                 }
             });

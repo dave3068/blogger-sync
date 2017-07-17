@@ -41,10 +41,18 @@ import * as gapis from "./gapis";
 
 gapis.setApiKey(API_KEY);
 
-gapis.blogs.getByUrl('http://blog.davyhawk.net/').then((ret)=>{
+gapis.blogs.getByUrl(
+    'http://blog.davyhawk.net/'
+).then((ret)=>{
     console.log(ret);
     console.log(ret.posts.totalItems);
     console.log(ret.posts.selfLink);
+    console.log(ret.id);
+    return gapis.blogs.getPosts(ret.id, 2);
+}).then((ret)=>{
+    console.log("blogs.getPosts result...");
+    console.log(ret);
+    console.log(ret.nextPageToken);
 }).catch((err)=>{
     console.error(err);
 });
