@@ -17,7 +17,10 @@ export function request<R>(path:string, param?:any, method?:RequestMethod):Promi
     path += `?key=${apiKey}`;
     if (param) {
         for (let k in param) {
-            path += '&' + k + '=' + param[k];
+            let val = param[k];
+            if (val) {
+                path += '&' + k + '=' + val;
+            }
         }
     }
     //
@@ -30,7 +33,12 @@ export function request<R>(path:string, param?:any, method?:RequestMethod):Promi
             //console.log(res.statusCode);
             res.on('data', (data:Buffer)=>{
                 try {
-                    resolve(JSON.parse(data.toString()));
+                    let ret = JSON.parse(data.toString());
+                    if (ret.hasOwnProperty("error")) {
+                        reject(ret);
+                    } else {
+                        resolve(ret);
+                    }
                 } catch (error) {
                     reject(error);
                 }

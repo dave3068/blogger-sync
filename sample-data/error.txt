@@ -1,0 +1,13 @@
+{
+    "error": {
+        "errors": [
+            {
+                "domain": "global",
+                "reason": "invalid",
+                "message": "We're sorry, but the value for field max_results is not a valid page size."
+            }
+        ],
+        "code": 400,
+        "message": "We're sorry, but the value for field max_results is not a valid page size."
+    }
+}
